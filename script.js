@@ -383,6 +383,15 @@
     let pats = parseInt(store.get('seqyra_headpats') || '0', 10) || 0;
     patsEl.textContent = pats.toLocaleString('en-US');
 
+    card.addEventListener('pointermove', (e) => {
+      if (matchMedia('(pointer: coarse)').matches) return;
+      const r = card.getBoundingClientRect();
+      const ry = ((e.clientX - r.left) / r.width - .5) * 9;
+      const rx = (.5 - (e.clientY - r.top) / r.height) * 7;
+      card.style.transform = `perspective(1100px) rotateX(${rx}deg) rotateY(${ry}deg)`;
+    });
+    card.addEventListener('pointerleave', () => { card.style.transform = ''; });
+
     const MILESTONES = {
       1:   'first headpat — she noticed you ♡',
       10:  '10 headpats — blushing intensifies',
