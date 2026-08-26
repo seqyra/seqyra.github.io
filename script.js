@@ -737,6 +737,7 @@
       resize();
       cv.classList.add('on');
       hud.classList.add('on');
+      hud.setAttribute('aria-hidden', 'false');
       scoreEl.textContent = '🌸 0';
       timeEl.textContent = '⏱ 30s';
       bestEl.textContent = 'best: ' + best;
@@ -750,6 +751,7 @@
       cancelAnimationFrame(raf);
       cv.classList.remove('on');
       hud.classList.remove('on');
+      hud.setAttribute('aria-hidden', 'true');
       if (early) { notify('fleeing the petals?? okay ♡'); return; }
       if (score > best) {
         best = score;

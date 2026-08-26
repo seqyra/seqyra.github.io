@@ -44,15 +44,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#fff3f8">
-  <meta name="description" content="seqyra — a little pink corner of the internet. links, sakura petals and one very pettable cat.">
+  <meta name="theme-color" content="#10090d">
+  <meta name="description" content="seqyra — engineer-minded vibe coder building with Python, Rust, AI, and a little too much pink.">
   <title>seqyra ♡</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌸%3C/text%3E%3C/svg%3E">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Mochiy+Pop+One&family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
@@ -77,6 +77,7 @@
   <nav id="nav">
     <a class="logo" href="#hero">seqyra <span class="logo-paw" aria-hidden="true">🐾</span></a>
     <div class="nav-links">
+      <a href="#hero">home</a>
       <a href="#links">links</a>
       <a href="#support">support</a>
     </div>
@@ -98,21 +99,21 @@
   <header id="hero">
     <div class="hero-grid">
       <div class="hero-text">
-        <p class="hero-greeting">⋆˚☁︎ welcome to my little pink corner ˚⋆</p>
-        <h1 class="hero-name">SEQYRA<span class="sparkle s1" aria-hidden="true">✦</span><span class="sparkle s2" aria-hidden="true">♡</span><span class="sparkle s3" aria-hidden="true">✧</span></h1>
-        <p class="hero-typed"><span id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+        <h1 class="hero-name">I build little worlds from <em>big ideas.</em></h1>
+        <p class="hero-typed">Engineer-minded vibe coder. Python, Rust, AI, and interfaces that feel <span>alive.</span></p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#links">my links ♡</a>
-          <a class="btn btn-ghost" href="#support">support me ✧</a>
+          <a class="btn btn-primary" href="#links">explore my world ✦</a>
+          <a class="btn btn-ghost" href="https://t.me/lkieg" target="_blank" rel="noopener noreferrer">say hi on Telegram</a>
           <button class="btn btn-game" id="petal-game-btn" type="button">petal game 🌸</button>
         </div>
+        <p class="hero-status">✦ currently creating ✦</p>
       </div>
 
       <!-- click the art → headpats! the counter remembers ♡ -->
       <button class="waifu-card" id="waifu" type="button" aria-label="Give a headpat">
         <span class="tape tape-top" aria-hidden="true"></span>
         <img src="images/hero.webp" alt="pink-haired anime character winking and flashing a peace sign">
-        <span class="waifu-hint">click to headpat! ♡</span>
+        <span class="waifu-hint">engineer · inventor · futurist</span>
         <span class="headpat-badge">headpats: <span id="pats">0</span> 💗</span>
       </button>
     </div>
@@ -127,8 +128,8 @@
     <!-- ─────────────────────────── LINKS ─────────────────────────── -->
     <section id="links">
       <div class="section-head reveal">
-        <p class="section-tag">⋆ find me here ⋆</p>
-        <h2>My Links <span class="flower" aria-hidden="true">🌸</span></h2>
+        <h2>places I<br><em>exist online</em></h2>
+        <p class="section-copy">little corners of the internet where I build, yap, and play.</p>
       </div>
 
       <div class="links-grid stagger">
@@ -142,9 +143,9 @@
           <span class="social-body">
             <span class="social-name">TikTok</span>
             <span class="social-handle">@seqyra</span>
-            <span class="social-desc">lil clips &amp; chaos</span>
+            <span class="social-desc">tiny clips &amp; chaos</span>
           </span>
-          <span class="social-heart" aria-hidden="true">♡</span>
+          <span class="social-open" aria-hidden="true">open ↗</span>
         </a>
 
         <!-- Telegram — filled in ✓ -->
@@ -158,7 +159,7 @@
             <span class="social-handle">@lkieg</span>
             <span class="social-desc">my current Telegram ♡</span>
           </span>
-          <span class="social-cta" aria-hidden="true">message me →</span>
+          <span class="social-cta" aria-hidden="true">open ↗</span>
         </a>
 
         <!-- ════════════════════════════════════════════════════════
@@ -174,9 +175,9 @@
           <span class="social-body">
             <span class="social-name">GitHub</span>
             <span class="social-handle">seqyra</span>
-            <span class="social-desc">code lives here</span>
+            <span class="social-desc">code, experiments, and impossible ideas</span>
           </span>
-          <span class="social-heart" aria-hidden="true">♡</span>
+          <span class="social-open" aria-hidden="true">open ↗</span>
         </a>
 
         <!-- Steam — filled in ✓ -->
@@ -190,7 +191,7 @@
             <span class="social-handle">seqyra</span>
             <span class="social-desc">my cozy game corner</span>
           </span>
-          <span class="social-heart" aria-hidden="true">♡</span>
+          <span class="social-open" aria-hidden="true">open ↗</span>
         </a>
 
       </div>
@@ -199,12 +200,11 @@
     <!-- ─────────────────────────── SUPPORT ─────────────────────────── -->
     <section id="support">
       <div class="section-head reveal">
-        <p class="section-tag">⋆ support ⋆</p>
-        <h2>Support Me <span class="flower" aria-hidden="true">🌸</span></h2>
+        <h2>fuel the next<br><em>impossible idea</em></h2>
       </div>
 
       <p class="support-intro reveal">
-        enjoyed your stay? you can buy me a boba — it converts directly into more pink. ♡
+        If this little world made you smile, you can turn a boba into more experiments, strange interfaces, and pink pixels.
       </p>
 
       <div class="ton-wrap">
@@ -216,8 +216,8 @@
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L22 8.5L12 22L2 8.5L12 2Z"/><path d="M12 2L22 8.5H2L12 2Z" fill="rgba(255,255,255,0.35)"/></svg>
           </span>
           <span class="ton-body">
-            <span class="ton-name">Donate via Tonkeeper</span>
-            <span class="ton-desc">one tap — boba acquired, pink sustained ♡</span>
+            <span class="ton-name">Support via Tonkeeper</span>
+            <span class="ton-desc">one tap — the next strange idea gets closer ♡</span>
           </span>
           <span class="ton-cta">open tonkeeper ♡</span>
         </a>
@@ -233,7 +233,7 @@
 
   <!-- ─────────────────────────── FOOTER ─────────────────────────── -->
   <footer>
-    <p class="footer-main">made with ♡ and way too much pink by seqyra</p>
+    <p class="footer-main">made with ♡, Python, Rust, and too much pink</p>
     <div class="footer-stats">
       <!-- all-time visits — counts even on GitHub Pages!
            (see COUNTER_NAMESPACE in script.js) -->
@@ -274,6 +274,6 @@
 
        ══════════════════════════════════════════════════════════════ -->
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>
