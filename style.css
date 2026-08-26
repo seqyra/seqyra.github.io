@@ -540,6 +540,32 @@ section {
   padding: 24px 26px;
 }
 
+.telegram-card {
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(255, 105, 180, 0.78);
+  background:
+    radial-gradient(circle at 14% 22%, rgba(84, 180, 247, 0.14), transparent 34%),
+    linear-gradient(115deg, rgba(255, 105, 180, 0.1), rgba(84, 180, 247, 0.07) 58%, rgba(255, 255, 255, 0.02));
+  box-shadow: 0 14px 38px rgba(255, 95, 168, 0.16), inset 0 0 0 1px rgba(143, 211, 255, 0.1);
+}
+.telegram-card::after {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: -62px;
+  bottom: -92px;
+  border-radius: 50%;
+  background: rgba(84, 180, 247, 0.12);
+  filter: blur(2px);
+  pointer-events: none;
+}
+.telegram-card:hover {
+  border-color: #8fd3ff;
+  box-shadow: 0 18px 48px rgba(255, 95, 168, 0.22), 0 0 26px rgba(84, 180, 247, 0.16);
+}
+
 .kawaii-icon {
   position: relative;
   width: 60px; height: 60px;
@@ -580,7 +606,7 @@ section {
 .social-card:hover .kawaii-icon { transform: scale(1.1) rotate(-5deg); }
 
 .kawaii-icon.tiktok   { background: linear-gradient(135deg, #ff9ecd, #ff5fa8); box-shadow: 0 8px 22px rgba(255, 95, 168, 0.4); }
-.kawaii-icon.telegram { background: linear-gradient(135deg, #8fd3ff, #54b4f7); box-shadow: 0 8px 22px rgba(84, 180, 247, 0.4); }
+.kawaii-icon.telegram { background: linear-gradient(135deg, #ff8fc7 0%, #8fd3ff 52%, #54b4f7 100%); box-shadow: 0 8px 26px rgba(255, 105, 180, 0.32), 0 0 20px rgba(84, 180, 247, 0.24); }
 .kawaii-icon.github   { background: linear-gradient(135deg, #c9b2ff, #9b7bf7); box-shadow: 0 8px 22px rgba(155, 123, 247, 0.4); }
 .kawaii-icon.steam    { background: linear-gradient(135deg, #a5b9ff, #5f7cf0); box-shadow: 0 8px 22px rgba(95, 124, 240, 0.4); }
 .kawaii-icon.ton      { background: linear-gradient(135deg, #6fc4ff, #0098ea); box-shadow: 0 8px 22px rgba(0, 152, 234, 0.4); }
@@ -597,6 +623,27 @@ section {
   color: var(--pink-d);
 }
 .social-desc { font-size: 0.86rem; color: var(--muted); font-weight: 700; }
+
+.social-cta {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  padding: 7px 11px;
+  border: 1px solid rgba(143, 211, 255, 0.42);
+  border-radius: 999px;
+  color: #ffd4e9;
+  background: rgba(255, 105, 180, 0.12);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 800;
+  white-space: nowrap;
+  transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+}
+.telegram-card:hover .social-cta {
+  transform: translateX(3px);
+  color: #fff;
+  background: linear-gradient(90deg, rgba(255, 105, 180, 0.28), rgba(84, 180, 247, 0.24));
+}
 
 .social-heart {
   margin-left: auto;

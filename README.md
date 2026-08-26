@@ -7,7 +7,7 @@
 **pink enjoyer · gamer · professional headpat receiver**
 
 [![TikTok](https://img.shields.io/badge/TikTok-%40seqyra-ff6fb5?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@seqyra)
-[![Telegram](https://img.shields.io/badge/Telegram-%40fuxobo-74c0fc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/fuxobo)
+[![Telegram](https://img.shields.io/badge/Telegram-%40lkieg-ff69b4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/lkieg)
 [![Steam](https://img.shields.io/badge/Steam-seqyra-9b7bf7?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/profiles/76561199266147278/)
 [![TON](https://img.shields.io/badge/TON-donate_♡-0098ea?style=for-the-badge)](https://app.tonkeeper.com/transfer/UQC3n1q7Ln8okZkKLjQZEh5rc9lAwPd9GmjSAURa9pYkPQCC)
 
